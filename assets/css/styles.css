@@ -168,7 +168,7 @@ img {
   color: var(--title-color);
   cursor: pointer;
 }
-
+/* piyush */
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
   .nav__menu {
