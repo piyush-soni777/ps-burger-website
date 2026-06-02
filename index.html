@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Discover delicious custom cakes made with premium ingredients. Order handmade cakes for birthdays, weddings and special occasions. Fresh, beautiful and crafted with love.">
+      <meta name="robots" content="index, follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Cakes Bakery madeby:-piyushSoni</title>
+   </head>
+   <body>
+      <!--==================== HEADER & NAV ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="/index.html" class="nav__logo">
+               <img src="assets/img/logo.svg" alt="logo delizia">
+               <span>Delizia</span>
+            </a>
+            <div class="nav__menu" id="nav--menu">
+               <ul class="nav__list">
+                  <li><a href="#home" class="nav__link active-link">Home</a></li>
+                  <li><a href="#about" class="nav__link">About Us</a></li>
+                  <li><a href="#products" class="nav__link">Products</a></li>
+                  <li><a href="#new" class="nav__link">New</a></li>
+                  <li><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+
+               <!-- close -->
+               <button class="nav__close" id="nav--close" aria-label="close menu">
+                  <i class="ri-close-large-line"></i>
+               </button>
+               <img src="assets/img/leaf-3.png" alt="" class="nav__img">
+            </div>
+            <button class="nav__toggle" id="nav--toggle" aria-label="Toggle menu">
+               <i class="ri-apps-2-line"></i>
+            </button>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME SECTION ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Best Custom <br> <span>Cakes Bakery</span>
+                  </h1>
+                  <p class="home__description">
+                     We create handcrafted cakes made with love, premium ingredients, 
+                     and a touch of magic. Because life's sweetest moments deserve to be 
+                     celebrated in a special way.
+                  </p>
+                  <a href="#products" class="button">Explore Our Cakes</a>
+               </div>
+               
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="swiper-slide">
+                           <img src="assets/img/home-cake-1.png" alt="Delicious decorated cake" class="home__cake">
+                        </article>
+                        <article class="swiper-slide">
+                           <img src="assets/img/home-cake-2.png" alt="Delicious decorated cake" class="home__cake">
+                        </article>
+                        <article class="swiper-slide">
+                           <img src="assets/img/home-cake-3.png" alt="Delicious decorated cake" class="home__cake">
+                        </article>
+                        <article class="swiper-slide">
+                           <img src="assets/img/home-cake-4.png" alt="Delicious decorated cake" class="home__cake">
+                        </article>
+                     </div>
+                  </div>
+                  <img src="assets/img/home-blob.svg" alt="" class="home__blob">
+                  <img src="assets/img/home-base.png" alt="" class="home__base">
+                  <img src="assets/img/home-balloons.png" alt="" class="home__balloons">
+                  <img src="assets/img/home-slice-cake-1.png" alt="" class="home__slice-1">
+                  <img src="assets/img/home-slice-cake-2.png" alt="" class="home__slice-2">
+                  <img src="assets/img/leaf-1.png" alt="" class="home__leaf">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT SECTION ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     Our Passion For <br> Baking Cakes
+                  </h2>
+                  <p class="about__description">
+                     We are a bakery specializing in homemade desserts, custom cakes, 
+                     brownies, and a wide variety of gourmet sweets. Our passion for baking 
+                     allows us to create perfect sweet experiences for celebrations, special 
+                     events, or simply to enjoy anytime.
+                  </p>
+                  <a href="#products" class="button">View our products</a>
+               </div>
+               <div class="about__images">
+                  <img src="assets/img/about-img.png" alt="Pastry team creating cakes" class="about__img">
+                  <img src="assets/img/about-blob.svg" alt="" class="about__blob">
+                  <img src="assets/img/about-cupcake-1.png" alt="" class="about__cupcake-1">
+                  <img src="assets/img/about-cupcake-2.png" alt="" class="about__cupcake-2">
+                  <img src="assets/img/about-cupcake-3.png" alt="" class="about__cupcake-3">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== PRODUCTS SECTION ====================-->
+         <section class="product section" id="products">
+            <h2 class="section__title">Our Products</h2>
+            <div class="product__container container">
+               <ul class="product__button">
+                  <li class="active-product" data-filter="all">All</li>
+                  <li data-filter=".strawberry">Strawberry</li>
+                  <li data-filter=".vanilla">Vanilla</li>
+                  <li data-filter=".chocolate">Chocolate</li>
+                  <li data-filter=".dried-fruit">Dried fruit</li>
+                  <li data-filter=".others">Others</li>
+               </ul>
+
+               <div class="product__content grid">
+                  <article class="product__card strawberry mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-1.png" alt="Handmade cake made with quality ingredients" class="product__img">
+                        <img src="assets/img/sticker-1.svg" alt="" class="product__sticker">
+                     </div>
+                     <h3 class="product__name">Strawberry Shortcake</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+                  <article class="product__card strawberry mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-2.png" alt="Handmade cake" class="product__img">
+                     </div>
+                     <h3 class="product__name">Fresh Strawberry Cream</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+                  <article class="product__card strawberry mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-strawberry-3.png" alt="Handmade cake" class="product__img">
+                     </div>
+                     <h3 class="product__name">Strawberry Delight Cake</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+
+                  <article class="product__card vanilla mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-vanilla-1.png" alt="Handmade cake" class="product__img">
+                     </div>
+                     <h3 class="product__name">Classic Vanilla Bean Cake</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+                  <article class="product__card vanilla mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-vanilla-2.png" alt="Handmade cake" class="product__img">
+                     </div>
+                     <h3 class="product__name">Vanilla Buttercream Cake</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+
+                  <article class="product__card chocolate mix">
+                     <div class="product__img-wrapper">
+                        <img src="assets/img/products-blob.svg" alt="" class="product__blob">
+                        <img src="assets/img/product-chocolate-1.png" alt="Handmade cake" class="product__img">
+                     </div>
+                     <h3 class="product__name">Chocolate Fudge Cake</h3>
+                     <span class="product__price">$15.99</span>
+                     <button class="product__action"><i class="ri-shopping-cart-line"></i></button>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== NEW SECTION ====================-->
+         <section class="new section" id="new">
+            <div class="new__container container grid">
+               <div class="new__data">
+                  <h2 class="section__title">
+                     Try Our <br> New Creations
+                  </h2>
+                  <p class="new__description">
+                     Discover the latest from our artisanal pastry shop, where we constantly 
+                     add new desserts and homemade cakes, made with fresh, high-quality 
+                     ingredients.
+                  </p>
+                  <a href="#products" class="button new__button">Order your cake now</a>
+                  <img src="assets/img/leaf-1.png" alt="" class="new__leaf-1">
+               </div>
+               
+               <div class="new__content">
+                  <div class="new__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="swiper-slide new__card">
+                           <img src="assets/img/new-cake-1.png" alt="Delicious decorated cake" class="new__cake">
+                           <h3 class="new__name">Premium Chocolate Cake</h3>
+                        </article>
+                        <article class="swiper-slide new__card">
+                           <img src="assets/img/new-cake-2.png" alt="Delicious decorated cake" class="new__cake">
+                           <h3 class="new__name">Premium Vanilla Cake</h3>
+                        </article>
+                        <article class="swiper-slide new__card">
+                           <img src="assets/img/new-cake-3.png" alt="Delicious decorated cake" class="new__cake">
+                           <h3 class="new__name">Premium Cherry Cake</h3>
+                        </article>
+                        <article class="swiper-slide new__card">
+                           <img src="assets/img/new-cake-4.png" alt="Delicious decorated cake" class="new__cake">
+                           <h3 class="new__name">Premium Blueberry Cake</h3>
+                        </article>
+                        <article class="swiper-slide new__card">
+                           <img src="assets/img/new-cake-5.png" alt="Delicious decorated cake" class="new__cake">
+                           <h3 class="new__name">Premium Raspberry Cake</h3>
+                        </article>
+                     </div>
+                     <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-line"></i>
+                     </div>
+                     <div class="swiper-button-next">
+                        <i class="ri-arrow-right-line"></i>
+                     </div>
+                  </div>
+                  <span class="new__text">DELICIOUS</span>
+                  <img src="assets/img/leaf-2.png" alt="" class="new__leaf-2">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT SECTION ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">
+               Order Your <br> Custom Cake Now!
+            </h2>
+            <div class="contact__container container grid">
+               <div class="contact__map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124855.93922253247!2d-77.10851410145266!3d-12.062061058223942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sMiraflores%2C%20Lima%2C%20Peru!5e0!3m2!1sen!2sus!4v1715694205423!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+               <div class="contact__content">
+                  <div class="contact__box">
+                     <h3 class="contact__title">Location:</h3>
+                     <address class="contact__address">
+                        128th Street Avenue, <br> Miraflores, Lima - Peru
+                     </address>
+                  </div>
+                  <div class="contact__box">
+                     <h3 class="contact__title">Call Us:</h3>
+                     <div class="contact__info">
+                        <a href="tel:+1234-9876-00">+1234-9876-00</a>
+                        <a href="tel:+00987654321">+00987654321</a>
+                     </div>
+                  </div>
+                  <div class="contact__box">
+                     <h3 class="contact__title">Operational:</h3>
+                     <div class="contact__info" itemscope itemtype="https://schema.org/LocalBusiness">
+                        <span itemprop="openingHours" content="Mo-Sa 09:00-20:00">Monday - Saturday: 9am - 8pm</span>
+                        <span itemprop="openingHours" content="Su 09:00-18:00">Sunday: 9am - 6pm</span>
+                     </div>
+                  </div>
+                  <div class="contact__box">
+                     <h3 class="contact__title">Messages:</h3>
+                     <div class="contact__social">
+                        <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="contact__social-link"><i class="ri-whatsapp-line"></i></a>
+                        <a href="https://m.me/bedimcode" target="_blank" class="contact__social-link"><i class="ri-messenger-line"></i></a>
+                        <a href="mailto:delizia@email.com" target="_blank" class="contact__social-link"><i class="ri-mail-line"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+               <img src="assets/img/logo.svg" alt="">
+               Delizia
+            </a>
+            <div class="footer__content">
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/bedimcode" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                  <a href="https://www.instagram.com/bedimcode/" target="_blank" class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://x.com/bedimcode/" target="_blank" class="footer__social-link"><i class="ri-twitter-x-fill"></i></a>
+               </div>
+               <img src="assets/img/footer-blob.svg" alt="" class="footer__blob">
+            </div>
+         </div>
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Bedimcode
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
