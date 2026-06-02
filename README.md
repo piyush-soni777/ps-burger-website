@@ -2,7 +2,7 @@
 
 This project is part of a step-by-step YouTube tutorial in which we build a responsive cake website from scratch using HTML, CSS and JavaScript.
 
-## 🎬 [Watch the Demo & Code](https://youtu.be/G6q7AkaljE4) 
+## preview
 
 ![preview img](/preview.png) 
 
@@ -24,7 +24,7 @@ You can **clone** the repository to your local machine or **fork** it in your Gi
 
 ```bash
 # Clone the repository using HTTPS
-git clone https://github.com/bedimcode/responsive-cake-website.git
+git clone https://github.com/piyush-soni777/ps-burger-website.git
 ```
 
-Designed & developed with ❤️ by **[Bedimcode](https://www.youtube.com/@Bedimcode)**
+
